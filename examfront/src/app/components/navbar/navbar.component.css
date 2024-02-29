@@ -1,0 +1,9 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  .register{
+    margin-right: 55px;
+  }
+  .login{
+    margin-right: 25px;
+  }

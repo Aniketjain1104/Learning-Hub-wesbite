@@ -1,0 +1,32 @@
+<!--<h>1>This is navbar</h1>-->
+<mat-toolbar color="primary">
+  <a
+    routerLink="/"
+    mat-icon-button
+    class="example-icon"
+    aria-label="Example icon-button with menu icon"
+  >
+    <mat-icon>menu_book</mat-icon>
+  </a>
+  <span>Learning Hub</span>
+  <span class="example-spacer"></span>
+  <div class="link">
+    <a
+      [routerLink]="'/login'"
+      mat-icon-button
+      class="example-icon favorite-icon login"
+      aria-label="Example icon-button with heart icon"
+    >
+      Login
+    </a>
+
+    <a
+      [routerLink]="'/signup'"
+      mat-icon-button
+      class="example-icon register"
+      aria-label="Example icon-button with share icon"
+    >
+      Register
+    </a>
+  </div>
+</mat-toolbar>
